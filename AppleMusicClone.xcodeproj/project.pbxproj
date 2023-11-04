@@ -14,6 +14,7 @@
 		F08A1A062AF5620E00706124 /* AppleMusicCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A1A052AF5620E00706124 /* AppleMusicCloneTests.swift */; };
 		F08A1A102AF5620E00706124 /* AppleMusicCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A1A0F2AF5620E00706124 /* AppleMusicCloneUITests.swift */; };
 		F08A1A122AF5620E00706124 /* AppleMusicCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A1A112AF5620E00706124 /* AppleMusicCloneUITestsLaunchTests.swift */; };
+		F0BE4E6D2AF614AE00E90D98 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE4E6C2AF614AE00E90D98 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F08A1A0B2AF5620E00706124 /* AppleMusicCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08A1A0F2AF5620E00706124 /* AppleMusicCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCloneUITests.swift; sourceTree = "<group>"; };
 		F08A1A112AF5620E00706124 /* AppleMusicCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0BE4E6C2AF614AE00E90D98 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F08A19F42AF5620D00706124 /* AppleMusicCloneApp.swift */,
 				F08A19F62AF5620D00706124 /* ContentView.swift */,
+				F0BE4E6C2AF614AE00E90D98 /* Colors.swift */,
 				F08A19F82AF5620E00706124 /* Assets.xcassets */,
 				F08A19FA2AF5620E00706124 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08A19F72AF5620D00706124 /* ContentView.swift in Sources */,
+				F0BE4E6D2AF614AE00E90D98 /* Colors.swift in Sources */,
 				F08A19F52AF5620D00706124 /* AppleMusicCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
