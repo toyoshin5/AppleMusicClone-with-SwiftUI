@@ -46,6 +46,7 @@
 		F08A1A0F2AF5620E00706124 /* AppleMusicCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCloneUITests.swift; sourceTree = "<group>"; };
 		F08A1A112AF5620E00706124 /* AppleMusicCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F0BE4E6C2AF614AE00E90D98 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F0D831AF2AF6793A00824DAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		F08A19E82AF5620D00706124 = {
 			isa = PBXGroup;
 			children = (
+				F0D831AF2AF6793A00824DAB /* README.md */,
 				F08A19F32AF5620D00706124 /* AppleMusicClone */,
 				F08A1A042AF5620E00706124 /* AppleMusicCloneTests */,
 				F08A1A0E2AF5620E00706124 /* AppleMusicCloneUITests */,
