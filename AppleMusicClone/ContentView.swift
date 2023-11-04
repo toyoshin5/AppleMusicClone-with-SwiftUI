@@ -82,15 +82,7 @@ struct AppButton: View {
 
 struct SongsArea: View {
     let songs: [String] = [
-        "Good Day", "Bouquet", "Aloha", "Sunrise Serenade", "Moonlit Melody",
-        "Ocean Breeze", "Eternal Echoes", "Whispering Wind", "Mystic Mirage",
-        "Golden Horizon", "Enchanted Evening", "Starlight Serenade",
-        "Lullaby of the Stars", "Celestial Harmony", "Serenity's Embrace",
-        "Dancing Fireflies", "Melody of the Mountains", "Hidden Oasis",
-        "Radiant Reverie", "Midnight Mirage", "Journey to Infinity",
-        "Crystal Cascade", "Soothing Symphony", "Echoes of Eternity",
-        "Harmony Haven", "Serendipity Sonata", "Velvet Twilight",
-        "Tranquil Tides", "Whimsical Waltz", "Chasing Dreams"
+        "Good Day", "Bouquet", "Aloha", "Sunrise Serenade", "Moonlit Melody","Ocean Breeze", "Eternal Echoes", "Whispering Wind", "Mystic Mirage","Golden Horizon", "Enchanted Evening", "Starlight Serenade","Lullaby of the Stars", "Celestial Harmony", "Serenity's Embrace","Dancing Fireflies", "Melody of the Mountains", "Hidden Oasis","Radiant Reverie", "Midnight Mirage", "Journey to Infinity","Crystal Cascade", "Soothing Symphony", "Echoes of Eternity","Harmony Haven", "Serendipity Sonata", "Velvet Twilight","Tranquil Tides", "Whimsical Waltz", "Chasing Dreams"
       ]
     var body: some View {
         VStack (alignment: .leading){
@@ -108,11 +100,9 @@ struct SongItem: View {
     var body: some View {
         HStack (spacing: 20){
                 Text(song)
-                    .font(.title3)
-                    .fontWeight(.medium)
             Spacer()
             Image(systemName: "ellipsis")
-                .foregroundColor(.gray)
+                .foregroundColor(.primary)
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 20)
