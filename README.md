@@ -1,5 +1,8 @@
 # AppleMusic Clone wth SwiftUI
 
+![music_SwiftUI](https://github.com/toyoshin5/AppleMusicClone-with-SwiftUI/assets/43494392/7e9636c5-e58f-4da7-ad33-9199dc6c5be3)
+
+
 ## 実行方法
 
 Xcodeを起動して command + R
@@ -17,5 +20,5 @@ Xcodeを起動して command + R
  - 実装しにくいUIがある。(Listは思ったよりも応用しにくいのでScrollViewを使おう)
  - 難しい文法がある
   - Trailing closure
-  - これのおかげで記述を省略できることがあるが、その分1つのUIの書き方がめちゃくちゃある感じがするので初学者にはきつい。
+  - これのおかげで記述を省略できることがあるが、その分1つのUIの書き方が多い感じがするので初学者にはきつい。
 
